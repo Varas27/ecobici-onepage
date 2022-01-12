@@ -1,0 +1,84 @@
+h1 {
+	left: calc(50% - 60px);
+	width:120px;
+	height:53px;
+	background:url(../images/background/ecobici-2.svg);
+}
+
+#menu {
+	padding:21.5px 15px;
+}
+
+.navbar {
+	margin-bottom:0;
+}
+
+header + div {
+	margin-top:73px !important;
+}
+
+#bar {
+	height: calc(100vh - 90px);
+	background:#D3FFB5;
+	margin-top:21.5px;
+}
+
+.nav-item {
+	width: 90%;
+	display: inline-block;
+	margin-top:30px;
+	margin-bottom:30px;
+	margin-left:auto;
+	margin-right:auto;
+	background:#7CA95E;
+	outline:3px solid #3F1F00;
+	height:auto;
+}
+
+.navbar-nav li:not(:last-child) {
+	border-right:0;
+	}
+
+.nav-link {
+	text-align: center;
+	padding: 15px 0;
+	}
+	
+#queEs h2, #caracteristicas h2 {
+	border-radius:15px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#comoSeUtiliza h2, #registro h2 {
+	border-radius:15px;
+	margin-left:auto;
+	margin-right:auto;
+}
+	
+.caracteristicas div div {
+	text-align:center
+}
+
+.caracteristicas p {
+	text-align:center
+}
+	
+footer div ul li a {
+	width:48px;
+	height:48px;
+	background: url(../images/background/sprite-2.png) no-repeat top left;
+}
+	
+footer div div:not(:last-child) {
+	margin-bottom:20px;
+}
+	
+footer div #ig a {background-position:0px 0px;}
+footer div #ig a:hover {background-position:0px -48px;}
+
+footer div #tw a {background-position:-48px 0px;}
+footer div #tw a:hover {background-position:-48px -48px;}
+
+footer div #fb a {background-position:-96px 0px;}
+footer div #fb a:hover {background-position:-96px -48px;}

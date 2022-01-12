@@ -1,0 +1,234 @@
+body {
+	font-family: Rubik;
+	background:#F3F3F3;
+}
+	
+p,label {
+	font-size:1em;
+	color:#494949;
+}
+	
+header {
+	background:#4F7E31;
+	position:relative;
+}
+
+h1 {
+	width:160px;
+	height:70px;
+	font-size:0;
+	background:url(../images/background/ecobici-1.svg);
+	position:absolute;
+	left:15px;
+	top:10px;
+}
+
+	
+#menu {
+	padding-top:30px;
+	padding-bottom:30px;
+}
+	
+nav ul li a {
+	color:white;
+}
+	
+nav ul li a:hover {
+	color:white;
+	text-shadow:0px 0px 12px #3F1F00;
+}
+	
+.nav-item {
+	height:30px;
+}	
+	
+.nav-link {
+	padding:3px 0 0 0;
+
+}		
+nav ul li{
+	padding-right: 20px;
+	padding-left: 20px;
+}
+	
+nav ul li:not(:last-child) {
+	border-right:solid 5px #3F1F00;
+}
+	
+.navbar .navbar-toggler-icon {
+	background:url(../images/background/menu.svg);
+	height:30px;
+	width:30px;
+}
+
+.navbar-toggler:focus {
+	outline:none;
+}
+
+#s1, #s2, #s3, #s4 {
+	position: relative;
+	top: -90px;
+}
+
+header + div {
+	margin-top:90px !important;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  width:100px
+}
+	
+#queEs, #caracteristicas {
+	background:#D3FFB5;
+	padding-top:55px;
+	padding-bottom:55px;
+}
+
+#comoSeUtiliza, #registro{
+	background:#9FD878;
+	padding-top:55px;
+	padding-bottom:55px;
+}
+
+#queEs h2, #caracteristicas h2 {
+	background:#7CA95E;
+	color:white;
+	padding:8px 15px;
+	margin-bottom:40px;
+	border-radius:0 15px 15px 0;
+}
+
+#comoSeUtiliza h2, #registro h2 {
+	background:#D3FFB5;
+	color:#1D4600;
+	padding:8px 15px;
+	margin-bottom:40px;
+	border-radius:0 15px 15px 0;
+}
+	
+#queEs div div img, #comoSeUtiliza div div img {
+	border-radius:15px;
+}
+
+.caracteristicas:not(:last-of-type) {
+	margin-bottom:70px;
+}
+
+
+.caracteristicas div div {
+	text-align:right
+}
+
+.caracteristicas p {
+	padding:3%;
+	background:white;
+	border-radius:15px;
+}
+
+form {
+	background:white;
+	border-radius:15px;
+}
+
+#textoVideo, form p {
+	background:#7CA95E;
+	font-size:1.1em;
+	padding:20px;
+	text-align:center;
+	border-radius:15px 15px 0px 0px;
+	color:white;
+}
+
+form p {
+	padding:20px 45px;
+	text-align:left;
+}
+
+form > div {
+	padding:0 30px 20px;
+}
+
+textarea {
+	resize:none;
+}
+
+input[type="submit"] {
+	background:#7CA95E;
+	color:white;
+	margin-top:15px;
+	height:40px;
+	width:100%;
+}
+
+.form-control:focus:valid {
+	border-color: green;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0, 255, 0, 0.6);
+}
+
+.form-control:focus:invalid {
+	border-color: red;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+}
+
+.btn:hover {
+	color:white;
+}
+
+footer {
+	background:#507E30;
+	padding:40px;
+}
+
+footer div h2 {
+	color:white;
+	padding-bottom:20px;
+	background:url(../images/background/bar.jpg) no-repeat bottom;
+	text-align:center;
+}
+
+.h4 {
+	margin-bottom:20px;
+}
+
+footer div div:nth-of-type(2) h2 {
+	margin-bottom:10px;
+	}
+
+footer div ul {
+	display:flex;
+	padding:0;
+}
+	
+footer div div:not(:nth-of-type(2)) ul {
+	flex-direction: column;
+	align-items: center;
+}
+  
+ footer div div:nth-of-type(2) ul {
+	justify-content:center;
+} 
+
+footer div ul li {
+	list-style:none;
+	color:#e3e3e3;
+	margin-bottom:10px;
+	font-size:1em;
+}
+
+footer div ul li a {
+	width:41px;
+	height:41px;
+	background: url(../images/background/sprite.png) no-repeat top left;
+	font-size:0px;
+	display: inline-block;
+	margin: 0 15px;
+}
+	
+footer div #ig a {background-position:0px 0px;}
+footer div #ig a:hover {background-position:0px -41px;}
+
+footer div #tw a {background-position:-41px 0px;}
+footer div #tw a:hover {background-position:-41px -41px;}
+
+footer div #fb a {background-position:-82px 0px;}
+footer div #fb a:hover {background-position:-82px -41px;}
